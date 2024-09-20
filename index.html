@@ -19,7 +19,7 @@
     <!-- Hearder Start -->
     <header class="header">
       <a href="#" class="logo"><img src="images/logo.png" alt="logo" /></a>
-      <nav class="navbar">
+      <nav class="navbar active">
         <a href="#" class="active">Home</a>
         <a href="#">About</a>
         <a href="#">Menu</a>
@@ -31,7 +31,52 @@
       <div class="buttons">
         <button><i class="fas fa-search"></i></button>
         <button><i class="fas fa-shopping-cart"></i></button>
-        <button><i class="fas fa-bars"></i></button>
+        <button id="menu-btn"><i class="fas fa-bars"></i></button>
+      </div>
+      <div class="search-form">
+        <input
+          type="text"
+          class="search-input"
+          id="search-box"
+          placeholder="search here"
+        />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-1.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-2.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-3.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-4.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 04</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
       </div>
     </header>
     <!-- Hearder End -->
@@ -115,6 +160,7 @@
           <div class="image">
             <img src="images/product-1.png" alt="product" />
           </div>
+
           <div class="box-bottom">
             <div class="info">
               <b class="price">$24.00</b>
@@ -134,8 +180,18 @@
           <div class="image">
             <img src="images/product-2.png" alt="product" />
           </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">$24.00</b>
+              <span class="amount">110gr / 300 Cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#"><i class="fas fa-plus"></i></a>
+            </div>
+          </div>
         </div>
-        <div class="box">
+
+        <div class="box dark-bg">
           <div class="box-head">
             <span class="title">MINI BURGER</span>
             <a href="#" class="name">Bacon Burger</a>
@@ -143,10 +199,222 @@
           <div class="image">
             <img src="images/dark-product.jpg" alt="product" />
           </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">$24.00</b>
+              <span class="amount">110gr / 300 Cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#"><i class="fas fa-plus"></i></a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Products End -->
+    <!-- About Start -->
+    <section class="about">
+      <h1 class="heading">about <span>us</span></h1>
+      <div class="row">
+        <div class="image">
+          <img src="images/about.jpg" alt="about" />
+        </div>
+        <div class="content">
+          <h3>What Is The Secret Recipe Of Our Burgers?</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quasi
+            perferendis? Eveniet sequi repellendus ab. Quas obcaecati quaerat,
+            illum quasi, odit explicabo quisquam eveniet in sequi ut quis
+            pariatur nemo.
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quasi
+            perferendis? Eveniet sequi repellendus ab. Quas obcaecati quaerat,
+            illum quasi, odit explicabo quisquam eveniet in sequi ut quis
+            pariatur nemo.
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quasi
+            perferendis? Eveniet sequi repellendus ab. Quas obcaecati quaerat,
+            illum quasi, odit explicabo quisquam eveniet in sequi ut quis
+            pariatur nemo.
+          </p>
+          <a href="#" class="btn">learn More</a>
+        </div>
+      </div>
+    </section>
+    <!-- About End -->
+    <!-- Review Start -->
+    <section class="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+            perferendis debitis est voluptatem quae eius nulla. Maxime similique
+            pariatur error excepturi. Quisquam, error. Magni sequi architecto
+            inventore, fugit fuga necessitatibus?
+          </p>
+          <img src="images/avatar-1.png" alt="avater" class="user" />
+          <h3>Jennifer Becker</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+            perferendis debitis est voluptatem quae eius nulla. Maxime similique
+            pariatur error excepturi. Quisquam, error. Magni sequi architecto
+            inventore, fugit fuga necessitatibus?
+          </p>
+          <img src="images/avatar-2.png" alt="avater" class="user" />
+          <h3>John Doe</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+            perferendis debitis est voluptatem quae eius nulla. Maxime similique
+            pariatur error excepturi. Quisquam, error. Magni sequi architecto
+            inventore, fugit fuga necessitatibus?
+          </p>
+          <img src="images/avatar-3.png" alt="avater" class="user" />
+          <h3>Lisa Arambula</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Review End -->
+    <!-- Contact Start -->
+    <section class="contact">
+      <h1 class="heading">contact <span>us</span></h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d70595.4264041343!2d41.00888645919958!3d37.827407841160145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1726825869802!5m2!1str!2str"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form>
+          <h3>get in touch</h3>
+          <div class="inputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="name" />
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-envelope"></i>
+            <input type="text" placeholder="name" />
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-phone"></i>
+            <input type="text" placeholder="telefon" />
+          </div>
+          <input type="submit" class="btn" value="contact" />
+        </form>
+      </div>
+    </section>
+    <!-- Contact End -->
+    <!-- Blog Start -->
+    <section class="blog">
+      <h1 class="heading">our <span>blogs</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-1.jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">how to make burgers?</a>
+            <span>by admin / 10st may, 2020</span>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error
+              provident voluptate ut officia vel,
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-2.jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">how to make burgers?</a>
+            <span>by admin / 10st may, 2020</span>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error
+              provident voluptate ut officia vel,
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-3.jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">how to make burgers?</a>
+            <span>by admin / 10st may, 2020</span>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error
+              provident voluptate ut officia vel,
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Blog End -->
+    <!-- Footer Start -->
+    <section class="footer">
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Search" />
+        <button class="btn btn-primary">search</button>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="links">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Products</a>
+        <a href="#">Review</a>
+        <a href="#">Contact</a>
+        <a href="#">Blogs</a>
+      </div>
+      <div class="credit">
+        credit by <span>Evin Özdemir</span> | all rigths reserved
+      </div>
+    </section>
+    <!-- Footer End -->
   </body>
 </html>

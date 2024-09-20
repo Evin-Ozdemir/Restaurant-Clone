@@ -588,7 +588,7 @@ a {
   }
 }
 @media (max-width: 768px) {
-  #menu-btn {
+  .header #menu-btn {
     display: inline-block;
   }
   .header .navbar {
@@ -611,4 +611,13 @@ a {
     font-size: 2rem;
   }
 }
+@media (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+  .header #menu-btn {
+    display: inline-block;
+  }
+}
+
 /* ! Responsive End */

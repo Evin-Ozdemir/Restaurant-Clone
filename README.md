@@ -5,11 +5,10 @@
  <div>
  <h2>📸 Project Demo</h2>
  <p>A quick preview of the restaurant website.</p>
-<div align='center'>
- 
-![Zight Recording 2024-09-25 at 02 04 55 AM](https://github.com/user-attachments/assets/77a21178-80da-44d5-8b9a-f55564431c67)
 
-</div>
+  ![Zight Recording 2024-10-02 at 01 19 39 PM](https://github.com/user-attachments/assets/af501870-bdb9-426a-95ff-2eda3b35ea8b)
+
+
 <h2>🛠️ Technologies Used</h2>
  <ul>
    <li>HTML5: For page structure and layout.</li>

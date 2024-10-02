@@ -6,7 +6,7 @@
  <h2>📸 Project Demo</h2>
  <p>A quick preview of the restaurant website.</p>
 
-  ![Zight Recording 2024-10-02 at 01 19 39 PM](https://github.com/user-attachments/assets/af501870-bdb9-426a-95ff-2eda3b35ea8b)
+  ![Zight Recording 2024-10-02 at 02 08 09 PM](https://github.com/user-attachments/assets/5a455142-d52a-4ecd-8857-e0d86448cc21)
 
 
 <h2>🛠️ Technologies Used</h2>
